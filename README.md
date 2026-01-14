@@ -12,7 +12,7 @@ I am happy to provide access to the full private repository or a walkthrough of 
 ## Complete System Architecture
 The following diagram illustrates the execution flow of the Tartarus Gate engine, from initial PEB walking to final syscall execution and C2 communication.
 
-![Tartarus Architecture](./tartarus-architecture-v1.png)
+![Tartarus Architecture](./Architecture-Diagram.png)
 
 *Figure 1: High-level execution flow of the implant engine and network stager.*
 
