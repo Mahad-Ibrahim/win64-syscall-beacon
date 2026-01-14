@@ -1,7 +1,7 @@
 # Project Tartarus: Advanced Windows Implant Architecture
 *A custom-built Adversary Emulation framework focusing on x64 syscall evasion and OS internals.*
 
-#### Project Status: Complete APT Simulation
+#### Access and Project Status
 
 While this repository hosts the source code for the core Implant Engine (Tartarus Gate) and the Assembly Network Stager, these are individual components of a larger, fully integrated Advanced Persistent Threat (APT) simulation.
 
