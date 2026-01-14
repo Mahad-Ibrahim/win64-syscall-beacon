@@ -127,19 +127,5 @@ The source code `main.asm` has **many comments**. These comments explain the sta
 
 > **Please read the comments in the source file for a detailed explanation of the registers and memory management.**
 
-## Build Instructions
-
-This code uses **MASM (Microsoft Macro Assembler)**.
-
-### Requirements
-* Visual Studio (you need the C++ Desktop Development workload for `ml64.exe`)
-
-### How to Compile
-Open the **x64 Native Tools Command Prompt** and run these commands:
-
-```cmd
-ml64.exe <FILENAME>.asm /link /entry:main /subsystem:console /defaultlib:kernel32.lib
-```
-
 # DISCLAIMER
 This software is provided for educational purposes only. It demonstrates operating system internals and modern evasion techniques. The author is not responsible for any misuse of this code. Do not use this on systems you do not own or have explicit permission to test.
