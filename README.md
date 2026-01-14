@@ -1,3 +1,6 @@
+# Project Tartarus: Advanced Windows Implant Architecture
+*A custom-built Adversary Emulation framework focusing on x64 syscall evasion and OS internals.*
+
 #### Project Status: Complete APT Simulation
 
 While this repository hosts the source code for the core Implant Engine (Tartarus Gate) and the Assembly Network Stager, these are individual components of a larger, fully integrated Advanced Persistent Threat (APT) simulation.
@@ -6,7 +9,7 @@ The complete project—including the multi-hop C2 infrastructure, persistence me
 
 I am happy to provide access to the full private repository or a walkthrough of the complete architecture upon request for interview and verification purposes. Please contact me directly to arrange access.
 
-# Win64 Syscall Beacon (PoC)
+# Proof of Concept
 A PoC x64 Windows implant that makes an HTTP POST request using direct syscalls and manual [PEB](https://learn.microsoft.com/en-us/windows/win32/api/winternl/ns-winternl-peb) walking. Made to bypass user-mode API hooks by EDR/AV.
 
 Note: This project was made for educational and research purposes only, attempting to showcase modern evasion techniques and Windows OS internals.
